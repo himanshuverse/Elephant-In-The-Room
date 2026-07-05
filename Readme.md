@@ -1,22 +1,11 @@
-🐘 pg-odyssey
+<h1 align="center" style="font-size: 60px;">🐘 Elephant Dance</h1>
 
-Learning PostgreSQL one query at a time — notes, exercises, and small projects.
+A hands-on playground for learning PostgreSQL — restoring, querying, and wrangling data with the DB elephant himself, Slonik.
 
-Structure
+About
 
-01-fundamentals/       # Data types, CRUD, constraints
-02-querying/           # Joins, subqueries, window functions
-03-schema-design/      # Normalization, indexes, relationships
-04-advanced-features/  # JSONB, CTEs, triggers, views
-05-performance/        # EXPLAIN ANALYZE, optimization
-06-administration/     # Roles, backups, extensions
-projects/              # Small applied projects
+This repo documents working with PostgreSQL using the classic dvdrental sample database — a DVD rental store schema with films, actors, customers, rentals, and payments. It's a great sandbox for practicing SQL, joins, restores, and general database administration.
 
-Setup
-
-bashbrew install postgresql
-brew services start postgresql
-psql postgres
 
 
 Work in progress — updated as I learn.
